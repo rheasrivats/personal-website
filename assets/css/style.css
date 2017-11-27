@@ -1,0 +1,150 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+#background img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+	filter: opacity(.85) blur(2px);
+	z-index: 1;
+	position: fixed;
+}
+
+#text {
+	z-index: 3;
+	position: absolute;
+	font-size: 90px;
+	color: #272e3a;
+	top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#descriptions {
+	z-index: 3;
+	position: absolute;
+	font-size: 50px;
+	color: #272e3a;
+	top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#navbar {
+	top: 5%;
+	left: 65%;
+	z-index: 5;
+	position: fixed;
+}
+
+a:link {
+	color: #272e3a;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #272e3a;
+	text-decoration: none;
+}
+
+.navbar-item {
+	float:left;
+	padding-right: 20px;
+	font-size: 20px;
+	color: #272e3a;
+	font-weight: normal;
+	opacity: 0.80;
+}
+
+#personal-pic img {
+	position: absolute;
+	top: 13%;
+	left: 10%;
+	height: 80%;
+	opacity: 0.90;
+	/*display: none;*/
+}
+
+#right-half {
+	position: absolute;
+	top: 15%;
+	left: 48%;
+	margin-right: 10%;
+}
+
+#about-me {
+	font-size: 25px;
+	color: #272e3a;
+}
+
+#row {
+	padding-top: 23%;
+	padding-right: 10%;
+	opacity: 0.8;
+}
+
+.social-media img{
+	position: relative;
+	width: 22%;
+	float : right;
+	padding-left: 10%;
+	transform: translateY(0px);
+}
+
+.social-media img:hover {
+	animation: icon-bounce 0.45s cubic-bezier(0.42, 0, 0.7, 0.5) 0s 2 alternate;
+}
+
+@keyframes icon-bounce {
+	0% {
+    transform: translateY(0px);
+		}
+	100% {
+    transform: translateY(-75px);
+	}
+/*#prof-picture img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 325px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+/*#icon-1 img {
+  position: fixed;
+  top: 55%;
+  left: 25%;
+}
+
+#icon-2 img {
+  position: fixed;
+  top: 30%;
+  left: 20%
+}
+
+#icon-5 img {
+  height:75px;
+  width: 90px;
+}*/
+
+.icon img{
+  width: 75px;
+  height: 75px;
+  padding-bottom: 10px;
+}
