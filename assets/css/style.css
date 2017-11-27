@@ -116,6 +116,26 @@ a:visited {
 	100% {
     transform: translateY(-75px);
 	}
+}
+
+#wireframe img{
+	top: 13%;
+	position: absolute;
+	height: 90%;
+}
+
+#about-corgo {
+	display: none;
+	padding-top: 13%;
+	padding-left: 7%;
+	width: 45%;
+	font-size: 30px;
+	color: #272e3a;
+}
+
+#about-corgo:hover {
+	cursor: pointer;
+}
 /*#prof-picture img {
   position: fixed;
   top: 50%;
